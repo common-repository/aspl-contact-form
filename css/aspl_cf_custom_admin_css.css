@@ -1,0 +1,169 @@
+.aspl-cf-add-new-main{
+	padding:10px 10px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border:5px solid #005082;
+	/*border-radius: 10px;*/
+	background-color: white;
+}
+.aspl-cf-add-new-main .aspl-cf-title{
+	padding: 10px 10px;
+}
+.aspl-cf-add-new-main .aspl-cf-title h1{
+	font-size: 20px;
+	color: #005082;
+	text-align: center;
+	/*text-decoration: underline;*/
+	text-decoration:underline ;
+	text-decoration-color: #005082;
+	font-weight: 800;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content{
+	padding: 10px 10px;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content table{
+ 	/*border-spacing: 15px;*/
+ 	    width: 100%;
+    border-collapse: collapse
+ }
+.aspl-cf-add-new-main .aspl-cf-body-content table .aspl-input{
+	width: 100%;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content h2{
+	color:#005082; 
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl-cf-fields-table{
+	padding: 10px 10px;
+	/*border: 2px solid #005082;*/
+	/*border-radius: 10px; */
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl-cf-fields-table table tr{
+	/*border-bottom: 1px solid;*/
+}    
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl-cf-fields-table table tr th{
+	padding: 15px 10px;
+	background-color: #005082;
+	color: white;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl-cf-fields-table table tr td{
+	padding: 15px 10px;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl-cf-row-button-section{
+
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl-cf-button{
+	background-color: #005082;
+	text-align: right;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl-fc-shortcode-textbox{
+	border:none;
+	border-bottom: 1px solid #005082;
+		background-color: #F2F1FF;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl-cf-fields-table table tr:nth-child(even) {
+	background-color: #F2F1FF;
+}
+.aspl-cf-save-button-div{
+	
+}
+.aspl_cf_email_switch,
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl_email_config_section{
+	padding: 10px 10px;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl_email_config_section{
+	display: none;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl_cf_email_config_switch_table{
+	width: 50%;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl_cf_email_config_switch_table p{
+	color: red;
+}
+
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl_email_config_section .aspl_cf_email_config_table{
+	width: 50%;
+	/*padding: 10px 10px;*/
+	border-spacing: 15px;
+	border-collapse: separate;
+}
+.aspl-cf-add-new-main .aspl-cf-body-content .dashicons-move{
+	color: #005082;
+}
+.aspl_cf_option_fields{
+	margin-top: 10px;
+	width: 100%;
+}
+.aspl_cf_addnew_genral_section table,
+.aspl-cf-add-new-main .aspl-cf-body-content .aspl_cf_addnew_genral_section table{
+	border-spacing: 15px;
+	border-collapse: separate;
+
+}
+
+
+
+/*Switch button */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left:1px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2c6496;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+

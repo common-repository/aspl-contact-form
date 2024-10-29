@@ -1,0 +1,29 @@
+.aspl-comtect-form-user{
+	padding: 10px 0px;
+}
+.aspl-comtect-form-user .aspl-contect-fields-user{
+	margin-top: 25px;
+}
+
+.aspl-cf-fields-select-option select{
+	padding: 1.5rem 1.8rem;
+    width: 100%;	
+}
+.aspl_email_btn{
+	border: 2px solid #005082;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.aspl_email_btn:hover{
+	
+	border: 2px solid white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #005082;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
